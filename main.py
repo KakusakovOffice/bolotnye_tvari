@@ -2,9 +2,11 @@ import telebot as tb
 import traceback
 from commands import *
 from time import sleep
-
 from config import bot
 
+#----------------------------------------------#
+# main_polling_loop( )
+# Bot's main loop
 def main_polling_loop():
     while True:
         try:
